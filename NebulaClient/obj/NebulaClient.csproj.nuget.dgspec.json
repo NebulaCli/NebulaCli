@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NebulaClient\\NebulaClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NebulaClient\\NebulaClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NebulaClient\\NebulaClient.csproj",
+        "projectName": "NebulaClient",
+        "projectPath": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NebulaClient\\NebulaClient.csproj",
+        "packagesPath": "C:\\Users\\gabpl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NebulaClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabpl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {
+              "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NovaAPI\\NovaAPI.csproj": {
+                "projectPath": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NovaAPI\\NovaAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "CmlLib.Core": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
+            "CmlLib.Core.Auth.Microsoft": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "DiscordRichPresence": {
+              "target": "Package",
+              "version": "[1.6.1.70, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.12.4, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2903.40, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "XboxAuthNet": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NovaAPI\\NovaAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NovaAPI\\NovaAPI.csproj",
+        "projectName": "NovaAPI",
+        "projectPath": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NovaAPI\\NovaAPI.csproj",
+        "packagesPath": "C:\\Users\\gabpl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabpl\\Downloads\\Nebula\\NebulaClient\\NebulaClient\\NovaAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabpl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "CmlLib.Core": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
+            "CmlLib.Core.Auth.Microsoft": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
