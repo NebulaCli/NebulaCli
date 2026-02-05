@@ -1,0 +1,30 @@
+<Window x:Class="NebulaClient.DiscordLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="Discord Login" Height="700" Width="500"
+        WindowStartupLocation="CenterOwner"
+        Background="#0F0F0F"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        BorderThickness="1"
+        BorderBrush="#222222">
+    <Border CornerRadius="8" Background="#0F0F0F" ClipToBounds="True">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Custom Header -->
+            <Border Grid.Row="0" Background="#111111" MouseLeftButtonDown="Header_MouseLeftButtonDown">
+                <Grid>
+                    <TextBlock Text="Nebula Discord Auth" Foreground="#888888" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,0,0,0" FontSize="11" FontWeight="Bold"/>
+                    <Button Content="✕" HorizontalAlignment="Right" Width="35" Height="35" Background="Transparent" BorderThickness="0" Foreground="#444444" Click="Close_Click"/>
+                </Grid>
+            </Border>
+
+            <wv2:WebView2 x:Name="webView" Grid.Row="1" Source="about:blank"/>
+        </Grid>
+    </Border>
+</Window>
