@@ -1,16 +1,3 @@
-<div align="center">
-  <img src="https://i.imgur.com/7W2qMIx.png" width="800" alt="Nebula Client Logo">
-  # ✨ Nebula Client ✨
-  **The next-generation Minecraft PvP experience**
-  [![Status](https://img.shields.io/badge/Status-Alpha-important?style=for-the-badge&logo=checkmarx)](https://github.com/NebulaCli/NebulaCli)
-  [![Version](https://img.shields.io/badge/Version-Dev-blueviolet?style=for-the-badge&logo=semver)](https://github.com/NebulaCli/NebulaCli)
-  [![Language](https://img.shields.io/badge/C%23-100%25-512BD4?style=for-the-badge&logo=csharp)](https://dotnet.microsoft.com/)
-  [![Framework](https://img.shields.io/badge/.NET-9.0-512BD4?style=for-the-badge&logo=.net)](https://dotnet.microsoft.com/)
-  [![Community](https://img.shields.io/discord/000000000000000000?logo=discord&label=Community&color=7289DA&style=for-the-badge)](https://discord.gg/JFxXDGxz)
-</div>
-
----
-
 ## 🌌 Introduction
 
 **Nebula Client** is a high-performance, modern Minecraft client focused on competitive PvP, smooth gameplay, and premium user experience. Built from the ground up to deliver low-latency combat mechanics, beautiful visuals, and deep integration with backend services like Nova API.
